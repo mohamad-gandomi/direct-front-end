@@ -1,0 +1,46 @@
+//---------------------------------------------
+//
+//  Fonts
+//
+//    1. Loading Mixins
+//    2. Loading Fonts
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Loading Mixins
+//---------------------------------------------
+
+@import "mixins/custom-fonts";
+
+//---------------------------------------------
+// 2. Loading Fonts
+//---------------------------------------------
+
+@include customFont((
+  "name": "YekanBakh",
+  "folder": "YekanBakh",
+  "files": "YekanBakh",
+  "weights": (300, 400, 600, 700, 800)
+));
+
+@include customFont((
+  "name": "Poppins",
+  "folder": "Poppins",
+  "files": "Poppins",
+  "weights": (300, 400, 600, 700, 800)
+));
+
+@include customFont((
+  "name": "Pinar",
+  "folder": "Pinar",
+  "files": "Pinar",
+  "weights": (300, 400, 600, 700, 800)
+));
+
+@include customFont((
+  "name": "iconsax",
+  "folder": "Iconsax",
+  "files": "Iconsax",
+  "weights": (300, 400, 600, 700, 800)
+));

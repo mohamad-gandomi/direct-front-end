@@ -1,0 +1,121 @@
+//---------------------------------------------
+//
+//  Variables
+//
+//    1. Bootstrap Fonts
+//    2. Bootstrap Globals
+//    3. Bootstrap Colors
+//    4. Bootstrap Grid Breakpoints
+//    5. Bootstrap Container Width
+//    6. Bootstrap Spacing
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Bootstrap Fonts
+//---------------------------------------------
+
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", YekanBakh, poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-size-base: 1rem;
+
+$font-sizes: (
+  1: $font-size-base * 2,
+  2: $font-size-base * 1.188,
+  3: $font-size-base * 1,
+  4: $font-size-base * 0.812,
+  5: $font-size-base * 0.688,
+  6: $font-size-base * 0.562 
+);
+
+$display-font-sizes: (
+  1: 3rem,
+  2: 2.5rem,
+  3: 2.062rem,
+  4: 1.75rem,
+  5: 1.438rem,
+  6: 1.3rem
+);
+
+$display-font-weight: 400;
+$display-line-height: 4.625rem;
+
+//---------------------------------------------
+// 2. Bootstrap Globals
+//---------------------------------------------
+
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-negative-margins: true;
+
+//---------------------------------------------
+// 3. Bootstrap Colors
+//---------------------------------------------
+
+$body-color: #16161D; // The default text color
+
+$primary:    #257CFF;
+$secondary:  #FFBE15;
+$success:    #2DCD82;
+$info:       #257CFF;
+$warning:    #F79009;
+$danger:     #F04438;
+$light:      #FFFFFF;
+$dark:       #000000;
+
+$dropdown-link-hover-bg: $light;
+
+//---------------------------------------------
+// 4. Bootstrap Grid Breakpoints
+//---------------------------------------------
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 391px,
+  md: 641px,
+  lg: 769px,
+  xl: 1025px,
+  xxl: 1281px
+);
+
+//---------------------------------------------
+// 5. Bootstrap Container Widths
+//---------------------------------------------
+
+$container-max-widths: (
+  xs: 358px,
+  sm: 576px,
+  md: 704px,
+  lg: 960px,
+  xl: 1216px,
+  xxl: 1280px
+);
+
+//---------------------------------------------
+// 6. Bootstrap Spacing
+//---------------------------------------------
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1:  $spacer * .25,
+  2:  $spacer * .5,
+  3:  $spacer * .75,
+  4:  $spacer * 1,
+  5:  $spacer * 1.25,
+  6:  $spacer * 1.5,
+  7:  $spacer * 2,
+  8:  $spacer * 2.5,
+  9:  $spacer * 3,
+  10: $spacer * 4,
+  11: $spacer * 5,
+  12: $spacer * 6,
+  13: $spacer * 8,
+  14: $spacer * 10,
+  15: $spacer * 12,
+  16: $spacer * 14,
+  17: $spacer * 16,
+);
+
+//$negative-spacers: if($enable-negative-margins, negativify-map($spacers), null);
