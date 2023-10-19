@@ -15,7 +15,7 @@
 // 1. Bootstrap Fonts
 //---------------------------------------------
 
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", YekanBakh, poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: 'YekanBakh';
 
 $font-size-base: 1rem;
 
@@ -25,7 +25,7 @@ $font-sizes: (
   3: $font-size-base * 1,
   4: $font-size-base * 0.812,
   5: $font-size-base * 0.688,
-  6: $font-size-base * 0.562 
+  6: $font-size-base * 0.562
 );
 
 $display-font-sizes: (
@@ -55,14 +55,14 @@ $enable-negative-margins: true;
 
 $body-color: #16161D; // The default text color
 
-$primary:    #257CFF;
-$secondary:  #FFBE15;
-$success:    #2DCD82;
-$info:       #257CFF;
-$warning:    #F79009;
-$danger:     #F04438;
-$light:      #FFFFFF;
-$dark:       #000000;
+$primary: #257CFF;
+$secondary: #FFBE15;
+$success: #2DCD82;
+$info: #257CFF;
+$warning: #F79009;
+$danger: #F04438;
+$light: #FFFFFF;
+$dark: #000000;
 
 $dropdown-link-hover-bg: $light;
 
@@ -99,15 +99,15 @@ $container-max-widths: (
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1:  $spacer * .25,
-  2:  $spacer * .5,
-  3:  $spacer * .75,
-  4:  $spacer * 1,
-  5:  $spacer * 1.25,
-  6:  $spacer * 1.5,
-  7:  $spacer * 2,
-  8:  $spacer * 2.5,
-  9:  $spacer * 3,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer * .75,
+  4: $spacer * 1,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 2,
+  8: $spacer * 2.5,
+  9: $spacer * 3,
   10: $spacer * 4,
   11: $spacer * 5,
   12: $spacer * 6,
