@@ -1,0 +1,43 @@
+/* Dropdown Toggle Icon
+========================================================================= */
+
+.dropdown-toggle {
+
+    &.show {
+        &::after {
+            content: "\e925";
+        }
+    }
+
+    &::after {
+        content: "\e91c";
+        font-family: "iconsax" !important;
+        display: inline-block;
+        vertical-align: bottom;
+        padding-right: 6px;
+        border: none
+    }
+
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+}
+
+
+/* Buttons
+========================================================================= */
+
+.btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white-500);
+    --bs-btn-bg: var(--bs-primary-500);
+    --bs-btn-border-color: var(--bs-primary-500);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--bs-primary-600);
+    --bs-btn-hover-border-color: var(--bs-primary-600);
+    --bs-btn-focus-shadow-rgb: var(--bs-primary-500);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bs-primary-500);
+    --bs-btn-active-border-color: var(--bs-primary-500);
+}
