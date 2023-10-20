@@ -63,7 +63,7 @@ export default {
       },
       // File loader for images
       {
-        test: /\.(jpg|jpeg|png|git|svg)$/i,
+        test: /\.(jpg|jpeg|png|git|svg|webp)$/i,
         type: "asset/resource",
       }
     ],
