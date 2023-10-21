@@ -33,6 +33,13 @@
     }
 }
 
+/* lists */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 
 /* Dropdown Toggle Icon
 ========================================================================= */
@@ -109,5 +116,14 @@
 .why-choose-us {
     .direct-card {
         border: 1px solid var(--bs-gray-700);
+    }
+}
+
+.direct-products {
+    .direct-card {
+        div img {
+            max-width: 140px;
+            max-height: 300px;
+        }
     }
 }
