@@ -1,3 +1,19 @@
+/* Font
+=========================================================================*/
+
+.font-yekanbakh {
+    font-family: 'Yekanbakh';
+}
+
+.font-pinar {
+    font-family: 'Pinar';
+}
+
+.font-poppins {
+    font-family: 'Poppins';
+}
+
+
 /* Dropdown Toggle Icon
 ========================================================================= */
 
@@ -55,4 +71,17 @@
         right: -130px;
         top: 50px;
     }
+}
+
+.ticker {
+    background: linear-gradient(to right, #257CFF, #FFBE15);
+
+    &__title {
+        border-left: 1px solid #66708566;
+    }
+
+    .swiper-wrapper {
+        transition-timing-function: linear;
+    }
+
 }
