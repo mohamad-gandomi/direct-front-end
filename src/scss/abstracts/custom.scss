@@ -1,5 +1,7 @@
-/* Font
+/* Root
 =========================================================================*/
+
+/* fonts */
 
 .font-yekanbakh {
     font-family: 'Yekanbakh';
@@ -11,6 +13,24 @@
 
 .font-poppins {
     font-family: 'Poppins';
+}
+
+/* section */
+
+.section-title {
+    &__icon {
+
+        span[class^="icon-"],
+        span[class*=" icon-"] {
+            font-size: 52px;
+        }
+    }
+
+    &__text {
+        h2 {
+            line-height: 42px;
+        }
+    }
 }
 
 
@@ -84,4 +104,10 @@
         transition-timing-function: linear;
     }
 
+}
+
+.why-choose-us {
+    .direct-card {
+        border: 1px solid var(--bs-gray-700);
+    }
 }
