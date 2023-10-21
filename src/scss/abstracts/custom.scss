@@ -40,6 +40,12 @@ ul {
     padding: 0;
 }
 
+/* divider */
+.divider {
+    width: 64px;
+    height: 6px;
+}
+
 
 /* Dropdown Toggle Icon
 ========================================================================= */
@@ -124,6 +130,22 @@ ul {
         div img {
             max-width: 140px;
             max-height: 300px;
+        }
+    }
+}
+
+.main-video {
+    &__icon {
+
+        span[class^="icon-"],
+        span[class*=" icon-"] {
+            font-size: 52px;
+        }
+    }
+
+    &__text {
+        h2 {
+            line-height: 42px;
         }
     }
 }
