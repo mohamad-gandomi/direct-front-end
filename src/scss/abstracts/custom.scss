@@ -172,3 +172,12 @@ ul {
         }
     }
 }
+
+.customers {
+    &__card {
+        &__icon-wrapper {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
