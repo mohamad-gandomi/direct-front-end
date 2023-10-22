@@ -2,11 +2,11 @@
 //
 //  Table of Contents
 //
-//    1. custome code
+//    1. Close Other Tabs When One Tab Opens
 //
 //---------------------------------------------
 
 
 //---------------------------------------------
-// 1. Toggle Active Class Btn Group
+// 1. Close Other Tabs When One Tab Opens
 //---------------------------------------------
