@@ -252,3 +252,36 @@ ul {
         }
     }
 }
+
+.main-contact-us {
+    &__image {
+
+        position: relative;
+
+        &__text {
+            max-width: 298px;
+            border-radius: 118px;
+            padding: 21px;
+            position: absolute;
+
+            &--female {
+                right: 20px;
+                bottom: 110px;
+            }
+
+            &--male {
+                right: 65px;
+                bottom: 25px;
+            }
+
+            p {
+                line-height: 35.253px;
+            }
+        }
+
+    }
+
+    &__form {
+        max-width: 375px;
+    }
+}
