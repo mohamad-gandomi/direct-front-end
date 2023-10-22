@@ -201,3 +201,54 @@ ul {
         }
     }
 }
+
+.blog {
+    &__card {
+        &__image {
+
+            position: relative;
+
+            img {
+                border-top-right-radius: 24px;
+                border-top-left-radius: 24px;
+            }
+
+            &__icons {
+                position: absolute;
+                top: 33px;
+                right: 24px;
+                z-index: 2;
+            }
+
+            &__info {
+                position: absolute;
+                bottom: 24px;
+                right: 24px;
+                z-index: 2;
+            }
+
+            &__category {
+                background: rgba(255, 190, 21, 0.20);
+                backdrop-filter: blur(15px);
+            }
+
+            &__comments-no {
+                background: rgba(102, 112, 133, 0.10);
+                backdrop-filter: blur(15px);
+            }
+        }
+
+        &__image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(0 0 0 / 30%);
+            z-index: 1;
+            border-top-right-radius: 24px;
+            border-top-left-radius: 24px;
+        }
+    }
+}
