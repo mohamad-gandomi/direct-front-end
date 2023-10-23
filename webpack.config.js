@@ -97,10 +97,10 @@ export default {
       filename: 'index.html',
       template: path.resolve(process.cwd(), "index.html")
     }),
-    // new HtmlWebpackPlugin({
-    //   filename: 'about.html',
-    //   template: path.resolve(process.cwd(), "about.html")
-    // }),
+    new HtmlWebpackPlugin({
+      filename: 'direct-plus.html',
+      template: path.resolve(process.cwd(), "direct-plus.html")
+    }),
 
   ],
 
@@ -110,7 +110,7 @@ export default {
       directory: path.resolve(process.cwd(), "public")
     },
     watchFiles: [
-      path.resolve(process.cwd(), "index.html")
+      path.resolve(process.cwd(), "direct-plus.html")
     ],
     compress: true,
     port: process.env.PORT || 9090,
