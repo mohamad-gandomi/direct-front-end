@@ -362,6 +362,52 @@ ul {
     }
 }
 
+.product-information {
+    &__text {
+        max-width: 608px;
+    }
+
+    &__img {
+        max-width: 608px;
+    }
+}
+
+.direct-product-tabs {
+    &__btns {
+        .collapsed {
+            background-color: #292D35;
+            border-color: #292D35;
+            color: #667085 !important;
+        }
+    }
+
+    &__content {
+        &__fetures {
+            border: 1px solid var(--bs-gray-700);
+
+            li {
+                border-bottom: 1px solid var(--bs-gray-700);
+            }
+
+            button {
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .direct-product-tabs {
+        &__content {
+            &__fetures {
+                button {
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
 /* Footer
 ========================================================================= */
 

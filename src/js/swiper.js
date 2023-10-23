@@ -56,7 +56,7 @@ const customerLogoCarousel = new Swiper('.customer-logo-carousel', {
 });
 
 //======================================================================
-// CUSTOMER LOGO CAROUSEL
+// CUSTOMER TESTIMONIALS
 //======================================================================
 
 const customerTestimonialsCarousel = new Swiper('.customer-testimonials-carousel', {
@@ -78,3 +78,25 @@ const customerTestimonialsCarousel = new Swiper('.customer-testimonials-carousel
     }
 });
 
+//======================================================================
+// CUSTOMER TESTIMONIALS PRODUCT
+//======================================================================
+
+const customerTestimonialsProductCarousel = new Swiper('.customer-testimonials-carousel-product', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    preventClicks: true,
+    speed: 800,
+    autoplay: {
+        delay: 3000,
+    },
+    breakpoints: {
+        1300: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 768px
+        768: {
+            slidesPerView: 2,
+        },
+    }
+});
