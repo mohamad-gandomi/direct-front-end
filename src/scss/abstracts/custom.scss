@@ -171,7 +171,7 @@ ul {
 
 .direct-tabs {
     &__btns {
-        .collapsed {
+        button[aria-expanded="false"] {
             background-color: #292D35;
             border-color: #292D35;
             color: #667085 !important;
@@ -374,7 +374,7 @@ ul {
 
 .direct-product-tabs {
     &__btns {
-        .collapsed {
+        button[aria-expanded="false"] {
             background-color: #292D35;
             border-color: #292D35;
             color: #667085 !important;

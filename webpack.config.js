@@ -101,6 +101,10 @@ export default {
       filename: 'direct-plus.html',
       template: path.resolve(process.cwd(), "direct-plus.html")
     }),
+    new HtmlWebpackPlugin({
+      filename: 'direct-pro.html',
+      template: path.resolve(process.cwd(), "direct-pro.html")
+    }),
 
   ],
 
@@ -110,7 +114,7 @@ export default {
       directory: path.resolve(process.cwd(), "public")
     },
     watchFiles: [
-      path.resolve(process.cwd(), "direct-plus.html")
+      path.resolve(process.cwd(), "direct-pro.html")
     ],
     compress: true,
     port: process.env.PORT || 9090,
