@@ -5,7 +5,8 @@
 //    1. Colors
 //    2. Text Colors
 //    3. Background Colors
-//    4. Margin
+//    4. Border Radius
+//    5. Font Weight
 //
 //---------------------------------------------
 
@@ -129,7 +130,7 @@ $utilities: map-merge($utilities,
     ));
 
 //---------------------------------------------
-// 3. Border Radius
+// 4. Border Radius
 //---------------------------------------------
 
 $utilities: map-merge($utilities,
@@ -145,4 +146,19 @@ $utilities: map-merge($utilities,
           6: 24px,
           circle: 50%,
           pill: $border-radius-pill )),
+    ));
+
+//---------------------------------------------
+// 5. Font Weight
+//---------------------------------------------
+
+$utilities: map-merge($utilities,
+    ("font-weight": (property: font-weight,
+        class: fw,
+        values: (400: 400,
+          500: 500,
+          600: 600,
+          700: 700,
+          800: 800,
+        )),
     ));

@@ -14,7 +14,7 @@ const TICKER = new Swiper('.ticker__carousel', {
         disableOnInteraction: false
     },
     slidesPerView: 'auto',
-    speed: 6000,
+    speed: 15000,
     grabCursor: true,
 });
 

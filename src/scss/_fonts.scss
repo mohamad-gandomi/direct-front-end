@@ -2,45 +2,144 @@
 //
 //  Fonts
 //
-//    1. Loading Mixins
-//    2. Loading Fonts
+//    1. YekanBakh
+//    2. Pinar
+//    2. Poppins
+//    2. Iconsax
 //
 //---------------------------------------------
 
 //---------------------------------------------
-// 1. Loading Mixins
+// 1. Yekan Bakh
 //---------------------------------------------
 
-@import "mixins/custom-fonts";
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh/YekanBakhFaNum-Regular.woff2') format('woff2'),
+    url('../fonts/YekanBakh/YekanBakhFaNum-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh/YekanBakhFaNum-SemiBold.woff2') format('woff2'),
+    url('../fonts/YekanBakh/YekanBakhFaNum-SemiBold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh/YekanBakhFaNum-Bold.woff2') format('woff2'),
+    url('../fonts/YekanBakh/YekanBakhFaNum-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh/YekanBakhFaNum-ExtraBold.woff2') format('woff2'),
+    url('../fonts/YekanBakh/YekanBakhFaNum-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh/YekanBakhFaNum-Black.woff2') format('woff2'),
+    url('../fonts/YekanBakh/YekanBakhFaNum-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
 
 //---------------------------------------------
-// 2. Loading Fonts
+// 2. Pinar
 //---------------------------------------------
 
-@include customFont((
-  "name": "YekanBakh",
-  "folder": "YekanBakh",
-  "files": "YekanBakh",
-  "weights": (300, 400, 600, 700, 800)
-));
+@font-face {
+  font-family: 'Pinar';
+  src: url('../fonts/Pinar/Pinar-FD-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
 
-@include customFont((
-  "name": "Poppins",
-  "folder": "Poppins",
-  "files": "Poppins",
-  "weights": (300, 400, 600, 700, 800)
-));
+@font-face {
+  font-family: 'Pinar';
+  src: url('../fonts/Pinar/Pinar-FD-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
-@include customFont((
-  "name": "Pinar",
-  "folder": "Pinar",
-  "files": "Pinar",
-  "weights": (300, 400, 600, 700, 800)
-));
+@font-face {
+  font-family: 'Pinar';
+  src: url('../fonts/Pinar/Pinar-FD-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
 
-@include customFont((
-  "name": "iconsax",
-  "folder": "Iconsax",
-  "files": "Iconsax",
-  "weights": (300, 400, 600, 700, 800)
-));
+@font-face {
+  font-family: 'Pinar';
+  src: url('../fonts/Pinar/Pinar-FD-Bold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pinar';
+  src: url('../fonts/Pinar/Pinar-FD-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+//---------------------------------------------
+// 3. Poppins
+//---------------------------------------------
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('true type');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf') format('true type');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('true type');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Bold.ttf') format('true type');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Black.ttf') format('true type');
+  font-weight: 900;
+  font-style: normal;
+}
+
+//---------------------------------------------
+// 4. Iconsax
+//---------------------------------------------
+
+@font-face {
+  font-family: 'iconsax';
+  src: url("../fonts/Iconsax/iconsax-Regular.eot") format("eot");
+  src: url("../fonts/Iconsax/iconsax-Regular.woff") format("woff");
+  src: url("../fonts/Iconsax/iconsax-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
