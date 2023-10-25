@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <title>Direct</title>
 </head>
 
-<body class="bg-black-500">
+<body>
     <div class="content-wrapper">
 
         <!-- NAVBAR
@@ -54,14 +54,14 @@
                         <!-- Login/Register & Dark/Light -->
                         <div class="d-flex py-7 p-xl-0">
                             <!-- Dark/Light Mode -->
-                            <a href="#" class="icon-sun-bulk text-secondary fs-1 ms-6 text-decoration-none align-items-center">
+                            <a href="#" id="mode-toggle" class="icon-sun-bulk text-secondary fs-1 ms-6 text-decoration-none align-items-center">
                                 <span class="path1"></span>
                                 <span class="path2"></span>
                             </a>
 
                             <!-- Login/Register BTNs -->
                             <button type="button" class="btn text-light ms-6">ورود</button>
-                            <button type="button" class="btn btn-primary text-light px-6 py-3 rounded-3 fw-500">ثبت نام</button>
+                            <button type="button" class="btn btn-primary px-6 py-3 rounded-3">ثبت نام</button>
                         </div>
                     </div>
                 </div>
@@ -145,9 +145,9 @@
                                 <!-- Product Count -->
                                 <div class="product__info__form__count mb-7">
                                     <div class="quantity-input bg-gray-800 rounded-6 d-inline-block px-3">
-                                        <button class="font-poppins quantity-button minus bg-gray-500 rounded-circle text-light quantity-button minus">-</button>
+                                        <button class="font-poppins quantity-button bg-gray-500 rounded-circle text-light quantity-button minus">-</button>
                                         <input class="display-5 text-light text-center" type="text" id="quantity" name="quantity" value="1">
-                                        <button class="font-poppins quantity-button minus bg-gray-500 rounded-circle text-light quantity-button plus">+</button>
+                                        <button class="font-poppins quantity-button bg-gray-500 rounded-circle text-light quantity-button plus">+</button>
                                     </div>
                                 </div>
 
@@ -1095,96 +1095,98 @@
                 </div>
 
                 <!-- Footer -->
-                <div class="footer container">
-                    <div class="row py-10">
-                        <div class="col-12 col-xl-4 mb-10 mb-xl-0">
-                            <h4 class="text-gray-100 display-5 fw-800 mb-9">خدمات</h4>
-                            <ul>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">امکانات پنل دایرکت</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">فروشگاه آنلاین بسازید</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">سوالات متداول</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">تماس با ما</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">بلاگ</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">تماس با ما</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-xl-4 mb-10 mb-xl-0">
-                            <h4 class="text-gray-100 display-5 fw-800 mb-9">محصول</h4>
-                            <ul>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">محصولات دایرکت</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">دستگاه ذخیره شماره موبایل</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">پایه پلکسی دایرکت</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">پایه چوبی دایرکت</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">کد های دستوری</a>
-                                </li>
-                                <li class="mb-6">
-                                    <a href="#" class="text-decoration-none text-gray-100">کد های دستوری</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-xl-4 mb-10 mb-xl-0">
-                            <h4 class="text-gray-100 display-5 fw-800 mb-9">راه های ارتباطی با ما</h4>
-                            <div class="row mb-8">
-                                <div class="col-6">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <span class="icon-call-line text-primary display-3 ms-3"></span>
-                                        <span class="text-gray-100">۰۵۱-۳۸۰۳۲۲۰۰</span>
-                                    </div>
-                                    <span class="text-gray-500 fs-4">منتظر تماس شما هستیم</span>
-                                </div>
-                                <div class="col-6">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <span class="icon-sms-line text-primary display-3 ms-3"></span>
-                                        <span class=" font-poppins text-gray-100 fs-4">Info@Direct.ir</span>
-                                    </div>
-                                </div>
+                <div class="footer">
+                    <div class="container">
+                        <div class="row py-10">
+                            <div class="col-12 col-xl-4 mb-10 mb-xl-0">
+                                <h4 class="text-gray-100 display-5 fw-800 mb-9">خدمات</h4>
+                                <ul>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">امکانات پنل دایرکت</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">فروشگاه آنلاین بسازید</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">سوالات متداول</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">تماس با ما</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">بلاگ</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">تماس با ما</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="row mb-8">
-                                <div class="col-12">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <span class="icon-location-line text-primary display-3 ms-3"></span>
-                                        <span class="text-gray-100 fs-4"><span class="fw-800">دفتر مشهد</span>، خیابان سناباد- نبش سناباد ۳۴ – پلاک ۳۴۰</span>
+                            <div class="col-12 col-xl-4 mb-10 mb-xl-0">
+                                <h4 class="text-gray-100 display-5 fw-800 mb-9">محصول</h4>
+                                <ul>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">محصولات دایرکت</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">دستگاه ذخیره شماره موبایل</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">پایه پلکسی دایرکت</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">پایه چوبی دایرکت</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">کد های دستوری</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="#" class="text-decoration-none text-gray-100">کد های دستوری</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-10 mb-xl-0">
+                                <h4 class="text-gray-100 display-5 fw-800 mb-9">راه های ارتباطی با ما</h4>
+                                <div class="row mb-8">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <span class="icon-call-line text-primary display-3 ms-3"></span>
+                                            <span class="text-gray-100">۰۵۱-۳۸۰۳۲۲۰۰</span>
+                                        </div>
+                                        <span class="text-gray-500 fs-4">منتظر تماس شما هستیم</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <span class="icon-sms-line text-primary display-3 ms-3"></span>
+                                            <span class=" font-poppins text-gray-100 fs-4">Info@Direct.ir</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <h4 class="text-gray-100 fs-2 fw-800 mb-10">ما را در شبکه‌های اجتماعی دنبال کنید</h4>
-                            <div class="d-flex">
-                                <a href="#" class="icon-instagram-bulk text-gray-300 display-1 text-decoration-none ms-7">
-                                    <span class="path1"></span>
-                                    <span class="path2"></span>
-                                    <span class="path3"></span>
-                                </a>
-                                <a href="#" class="icon-whatsapp-bulk text-gray-300 display-1 text-decoration-none ms-7">
-                                    <span class="path1"></span>
-                                    <span class="path2"></span>
-                                    <span class="path3"></span>
-                                </a>
-                                <a href="#" class="icon-telegram-bulk text-gray-300 display-1 text-decoration-none ms-7">
-                                    <span class="path1"></span>
-                                    <span class="path2"></span>
-                                    <span class="path3"></span>
-                                </a>
+                                <div class="row mb-8">
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <span class="icon-location-line text-primary display-3 ms-3"></span>
+                                            <span class="text-gray-100 fs-4"><span class="fw-800">دفتر مشهد</span>، خیابان سناباد- نبش سناباد ۳۴ – پلاک ۳۴۰</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="text-gray-100 fs-2 fw-800 mb-10">ما را در شبکه‌های اجتماعی دنبال کنید</h4>
+                                <div class="d-flex">
+                                    <a href="#" class="icon-instagram-bulk text-gray-300 display-1 text-decoration-none ms-7">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                        <span class="path3"></span>
+                                    </a>
+                                    <a href="#" class="icon-whatsapp-bulk text-gray-300 display-1 text-decoration-none ms-7">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                        <span class="path3"></span>
+                                    </a>
+                                    <a href="#" class="icon-telegram-bulk text-gray-300 display-1 text-decoration-none ms-7">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                        <span class="path3"></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

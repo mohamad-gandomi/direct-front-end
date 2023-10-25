@@ -25,6 +25,10 @@ p {
 
 /* section */
 
+body {
+    overflow-x: hidden;
+}
+
 .section-title {
     &__icon {
         display: flex;
@@ -89,7 +93,6 @@ ul {
     font-weight: 900;
     font-family: 'Yekanbakh';
 }
-
 
 /* Dropdown Toggle Icon
 ========================================================================= */
@@ -435,4 +438,492 @@ ul {
 
 .sub-footer {
     border-bottom: 1px solid var(--bs-gray-700);
+}
+
+/* Light Mode
+========================================================================= */
+
+[data-bs-theme="light"] {
+    --bs-body-bg: var(--bs-white-500);
+
+    .navbar-dark {
+        --bs-navbar-color: var(--bs-gray-900);
+        --bs-navbar-active-color: var(--bs-gray-900) !important;
+    }
+
+    .text-light {
+        color: var(--bs-gray-900) !important;
+    }
+
+    .main-welcome {
+        .text-gray-200 {
+            color: var(--bs-gray-500) !important;
+        }
+
+        .text-secondary {
+            color: var(--bs-primary-500) !important;
+        }
+    }
+
+    .sectoin-title {
+        .text-gray-200 {
+            color: var(--bs-gray-500) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-gray-700) !important;
+        }
+    }
+
+    .why-choose-us {
+        .text-gray-700 {
+            color: var(--bs-gray-200) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-400) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .direct-card {
+            border-color: var(--bs-gray-100) !important;
+        }
+    }
+
+    .direct-products {
+        .bg-gray-800 {
+            background-color: var(--bs-gray-50) !important;
+        }
+
+        .text-white-50 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .text-secondary {
+            color: var(--bs-primary-500) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-400) !important;
+        }
+
+        .text-gray-50 {
+            color: var(--bs-gray-700) !important;
+        }
+    }
+
+    .main-video {
+        .text-secondary {
+            color: var(--bs-primary-500) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .text-gray-200 {}
+    }
+
+    .counter {
+        h2.text-gray-100 {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .section-title {
+            &__text {
+                .text-gray-200 {
+                    color: var(--bs-gray-500) !important;
+                }
+            }
+        }
+
+
+
+        .text-secondary {
+            color: var(--bs-primary-500) !important;
+        }
+
+        .text-primary {
+            color: #FFBE15 !important;
+        }
+    }
+
+    .features {
+
+        .bg-black-500 {
+            background-color: var(--bs-white-500) !important;
+        }
+
+        .bg-gray-800 {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        .btn-gray-900 {
+            color: var(--bs-gray-400) !important;
+            background-color: var(--bs-gray-100) !important;
+            border-color: var(--bs-gray-100) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .btn-gray-900[aria-expanded="true"] {
+            color: var(--bs-gray-700) !important;
+            background-color: var(--bs-gray-50) !important;
+            border-color: var(--bs-gray-50) !important;
+        }
+
+        .form-switch .form-check-input {
+            background-image: url("data: image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8' ><circle r='3' fill='%23fff' /></svg>") !important;
+        }
+
+        .form-switch .form-check-input,
+        .form-switch .form-check-input:focus {
+            background-color: var(--bs-gray-100) !important;
+            border: var(--bs-gray-100) !important;
+        }
+
+        .form-switch .form-check-input:checked[type=checkbox] {
+            background-color: var(--bs-primary-500) !important;
+        }
+    }
+
+    .customers {
+        .bg-gray-800 {
+            background-color: var(--bs-gray-50) !important;
+        }
+
+        .bg-gray-700 {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-800) !important;
+        }
+
+        .text-white-50 {
+            color: var(--bs-gray-800) !important;
+        }
+
+        .text-secondary {
+            color: var(--bs-primary-500) !important;
+        }
+
+        &__card {
+            &__tags {
+                .btn-gray-700 {
+                    color: var(--bs-gray-700) !important;
+                    background-color: var(--bs-gray-200) !important;
+                    border-color: var(--bs-gray-50) !important;
+                }
+            }
+        }
+
+    }
+
+    .customer-testimonials-carousel {
+        .bg-gray-800 {
+            background-color: var(--bs-gray-50) !important;
+        }
+
+        .text-gray-50 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .text-gray-300 {
+            color: var(--bs-gray-500) !important;
+        }
+
+        .text-gray-400 {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .text-gray-600 {
+            color: var(--bs-gray-200) !important;
+        }
+    }
+
+    .blog {
+        .bg-gray-800 {
+            background-color: var(--bs-gray-50) !important;
+        }
+
+        .text-gray-50 {
+            color: var(--bs-gray-800) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-400) !important;
+        }
+
+        .text-white-500 {
+            color: var(--bs-gray-600) !important;
+        }
+
+
+        &__card {
+            &__text {
+                &__date {
+                    .text-gray-500 {
+                        color: var(--bs-gray-300) !important;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .main-contact-us {
+
+        &__image {
+            .bg-gray-800 {
+                background-color: white !important;
+            }
+
+            p {
+                color: black !important;
+            }
+        }
+
+        &__form {
+
+            .bg-gray-800 {
+                background-color: var(--bs-gray-100) !important;
+            }
+
+            .text-white-500:not(button) {
+                color: var(--bs-black-500) !important;
+            }
+
+            .text-gray-400 {
+                color: var(--bs-gray-500) !important;
+            }
+        }
+    }
+
+    .direct-faqs {
+
+        .bg-black-500 {
+            background-color: var(--bs-white-500) !important;
+        }
+
+        .text-gray-50 {
+            color: var(--bs-white-500) !important;
+        }
+
+        .text-gray-50,
+        .text-light {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .accordion .accordion-item {
+            border-bottom: 1px solid var(--bs-gray-200) !important;
+        }
+
+        .accordion .accordion-button::after {
+            background-image: url("data: image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000' ><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /></svg>") !important;
+        }
+    }
+
+    footer {
+        .top-footer {
+
+            background-color: var(--bs-gray-50) !important;
+
+            .text-gray-300 {
+                color: var(--bs-gray-600) !important;
+            }
+
+            .text-gray-100 {
+                color: var(--bs-gray-800) !important;
+            }
+        }
+
+        .footer {
+            background-color: var(--bs-gray-100) !important;
+
+            .text-gray-100 {
+                color: var(--bs-gray-800) !important;
+            }
+        }
+    }
+
+    .sub-footer {
+
+        background-color: var(--bs-gray-50) !important;
+
+        .text-gray-100 {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .bg-gray-900 {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        border-bottom: 1px solid var(--bs-gray-200);
+    }
+
+    .sign {
+
+        background-color: var(--bs-gray-50) !important;
+
+        .text-gray-200 {
+            color: var(--bs-gray-700) !important;
+        }
+    }
+
+    .product {
+        .text-gray-50 {
+            color: var(--bs-gray-900) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-700) !important;
+        }
+
+        .btn-gray-700 {
+            color: var(--bs-gray-700) !important;
+            background-color: var(--bs-gray-200) !important;
+            border-color: var(--bs-gray-50) !important;
+        }
+
+        .quantity-input {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        .quantity-button {
+            background-color: var(--bs-gray-600) !important;
+            color: var(--bs-gray-100) !important;
+            ;
+        }
+    }
+
+    .product-information {
+        .text-gray-50 {
+            color: var(--bs-gray-900) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-500) !important;
+        }
+
+    }
+
+    .direct-product-tabs {
+        .bg-black-500 {
+            background-color: var(--bs-white-500) !important;
+        }
+
+        .bg-gray-800 {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        .btn-gray-900 {
+            color: var(--bs-gray-400) !important;
+            background-color: var(--bs-gray-100) !important;
+            border-color: var(--bs-gray-100) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .btn-gray-900[aria-expanded="true"] {
+            color: var(--bs-gray-700) !important;
+            background-color: var(--bs-gray-50) !important;
+            border-color: var(--bs-gray-50) !important;
+        }
+
+        .customer-testimonials-carousel-product {
+            .bg-gray-800 {
+                background-color: var(--bs-gray-50) !important;
+            }
+
+            .text-gray-50 {
+                color: var(--bs-black-500) !important;
+            }
+
+            .text-gray-300 {
+                color: var(--bs-gray-500) !important;
+            }
+
+            .text-gray-400 {
+                color: var(--bs-gray-700) !important;
+            }
+
+            .text-gray-600 {
+                color: var(--bs-gray-200) !important;
+            }
+        }
+
+        &__content {
+            &__fetures {
+                .text-primary {
+                    color: var(--bs-secondary) !important;
+                }
+
+                .btn-warning-800 {
+                    color: var(--bs-primary-500) !important;
+                    background-color: var(--bs-primary-200) !important;
+                    border-color: var(--bs-primary-200) !important;
+                }
+
+                li {
+                    border-bottom: 1px solid var(--bs-gray-100) !important;
+                }
+
+                border: 1px solid var(--bs-gray-100) !important;
+            }
+        }
+    }
+
+    .customer-club {
+        .bg-black-500 {
+            background-color: var(--bs-white-500) !important;
+        }
+
+        .bg-gray-800 {
+            background-color: var(--bs-gray-100) !important;
+        }
+
+        .btn-gray-900 {
+            color: var(--bs-gray-400) !important;
+            background-color: var(--bs-gray-100) !important;
+            border-color: var(--bs-gray-100) !important;
+        }
+
+        .text-gray-100 {
+            color: var(--bs-black-500) !important;
+        }
+
+        .btn-gray-900[aria-expanded="true"] {
+            color: var(--bs-gray-700) !important;
+            background-color: var(--bs-gray-50) !important;
+            border-color: var(--bs-gray-50) !important;
+        }
+
+        .text-gray-50 {
+            color: var(--bs-gray-900) !important;
+        }
+
+        .text-gray-200 {
+            color: var(--bs-gray-500) !important;
+        }
+
+        border-bottom: 1px solid var(--bs-gray-100);
+
+    }
+}
+
+[data-bs-theme="dark"] {
+    --bs-body-bg: var(--bs-black-500);
 }
